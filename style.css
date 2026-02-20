@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -256,6 +257,16 @@ button .fas {
 .success-message {
   background-color: #e8f4fc;
   color: #003c71;
+}
+
+.goal-message {
+  background-color: #ecfdf3;
+  color: #166534;
+  border: 2px solid #86efac;
+}
+
+.goal-reached .progress-bar {
+  background-image: linear-gradient(90deg, #16a34a, #4ade80);
 }
 
 /* Counter */
