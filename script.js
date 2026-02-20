@@ -8,7 +8,7 @@ const nameInput = document.getElementById("attendeeName");
 form.addEventListener('submit', function(event){
   event.preventDefault(); // prevent from refreshing the page once submission hits
   const name = nameInput.value;
-  const team = teamSelect.value;
+  const team = teamSelect.value; 
 
   const teamName = teamSelect.selectedOptions[0].text; // Get the text of the selected option
   console.log(name, teamName);
